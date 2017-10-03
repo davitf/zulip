@@ -900,23 +900,17 @@ input[type=checkbox].inline-block {
     overflow: hidden;
 }
 
-#settings_page .content-wrapper .settings-header {
-    width: 100%;
-    height: 43px;
-    border-bottom: 1px solid hsl(0, 0%, 86%);
-}
-
-#settings_page .content-wrapper .settings-header h1 .section {
+#settings_page .content-wrapper .overlay-header h1 .section {
     font-weight: 400;
     color: hsl(0, 0%, 40%);
 }
 
-#settings_page .settings-header.mobile {
+#settings_page .overlay-header.mobile {
     display: none;
     border-bottom: 1px solid hsl(0, 0%, 86%);
 }
 
-.settings-header.mobile .icon-vector-chevron-left {
+#settings_page .overlay-header.mobile .icon-vector-chevron-left {
     float: left;
     position: relative;
     top: 14px;
@@ -996,14 +990,6 @@ input[type=checkbox].inline-block {
     margin: 0px;
 }
 
-#settings_page .form-sidebar .title .exit {
-    float: right;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-top: 11px;
-    cursor: pointer;
-}
-
 #settings_page .sidebar .header {
     height: auto;
     position: relative;
@@ -1016,7 +1002,9 @@ input[type=checkbox].inline-block {
     border-bottom: 1px solid hsl(0, 0%, 86%);
 }
 
-#settings_page .settings-header {
+/*
+
+#settings_page .overlay-header {
     padding-top: 1px;
 }
 
@@ -1027,26 +1015,7 @@ input[type=checkbox].inline-block {
     margin: 15px;
     text-transform: uppercase;
 }
-
-#settings_page .settings-header .exit {
-    font-weight: 600;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: hsl(0, 0%, 66%);
-    cursor: pointer;
-}
-
-#settings_page .settings-header .exit-sign {
-    float: right;
-    position: relative;
-    top: 3px;
-    margin-left: 3px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    cursor: pointer;
-}
-
+*/
 
 #deactivation_user_modal.fade.in {
     top: calc(50% - 120px);
@@ -1193,11 +1162,11 @@ input[type=text]#settings_search {
 }
 
 @media (max-width: 700px) {
-    #settings_page .settings-header.mobile {
+    #settings_page .overlay-header.mobile {
         display: block;
     }
 
-    #settings_page .content-wrapper .settings-header {
+    #settings_page .content-wrapper .overlay-header {
         display: none;
     }
 

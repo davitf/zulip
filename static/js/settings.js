@@ -138,7 +138,7 @@ exports.launch_page = function (tab) {
 
 exports.set_settings_header = function (key) {
     if (map[key]) {
-        $(".settings-header h1 .section").text(" / " + map[key]);
+        $("#settings_page .overlay-header h1 .section").text(" / " + map[key]);
     } else {
         blueslip.warn("Error: the key '" + key + "' does not exist in the settings" +
             " header mapping file. Please add it.");

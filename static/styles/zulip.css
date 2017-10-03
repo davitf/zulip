@@ -2208,17 +2208,6 @@ button.topic_edit_cancel {
     border-color: hsl(0, 0%, 86%);
 }
 
-#invite-user .modal-header .exit {
-    font-size: 1.5rem;
-    font-weight: 600;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 6px;
-    right: 5px;
-    color: hsl(0, 0%, 66%);
-}
-
 #invitee_emails {
     min-height: 40px;
     max-height: 300px;

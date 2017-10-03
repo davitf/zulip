@@ -440,7 +440,7 @@ form#add_new_subscription {
 }
 
 .subscriptions-header .fa-chevron-left,
-#settings_overlay_container .settings-header.mobile .icon-vector-chevron-left {
+#settings_overlay_container .overlay-header.mobile .icon-vector-chevron-left {
     position: relative;
     transform: translate(-50px, 0px);
     opacity: 0;
@@ -455,7 +455,7 @@ form#add_new_subscription {
 }
 
 .subscriptions-header.slide-left .fa-chevron-left,
-#settings_overlay_container .settings-header.mobile.slide-left .icon-vector-chevron-left {
+#settings_overlay_container .overlay-header.mobile.slide-left .icon-vector-chevron-left {
     transform: translate(-0px, 0px);
     opacity: 1;
 }
@@ -464,24 +464,6 @@ form#add_new_subscription {
     display: inline-block;
     transition: all 0.3s ease;
     transform: translate(-13px, 0px);
-}
-
-.subscriptions-container .exit {
-    font-weight: 600;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: hsl(0, 0%, 66%);
-    cursor: pointer;
-}
-
-.subscriptions-container .exit-sign {
-    position: relative;
-    top: 3px;
-    margin-left: 3px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    cursor: pointer;
 }
 
 .subscriptions-container .left,

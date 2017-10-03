@@ -756,12 +756,12 @@ $(function () {
 
         var $settings_overlay_container = $("#settings_overlay_container");
         $settings_overlay_container.find(".right").addClass("show");
-        $settings_overlay_container.find(".settings-header.mobile").addClass("slide-left");
+        $settings_overlay_container.find(".overlay-header.mobile").addClass("slide-left");
 
         settings.set_settings_header($(this).attr("data-section"));
     });
 
-    $(".settings-header.mobile .icon-vector-chevron-left").on("click", function () {
+    $("#settings_page .overlay-header.mobile .icon-vector-chevron-left").on("click", function () {
         $("#settings_page").find(".right").removeClass("show");
         $(this).parent().removeClass("slide-left");
     });
